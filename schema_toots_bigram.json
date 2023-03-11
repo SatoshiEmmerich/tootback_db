@@ -1,0 +1,27 @@
+[
+  {
+    "name": "instance",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "id",
+    "type": "INT64",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "created_at",
+    "type": "TIMESTAMP",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "words",
+    "type": "STRING",
+    "mode": "REPEATED"
+  },
+  {
+    "name": "status_json",
+    "type": "JSON",
+    "mode": "REQUIRED"
+  }
+]
